@@ -74,3 +74,15 @@ img {
 .boxleft {
   align-self: center;
 }
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footertext {
+  position: absolute;
+  bottom: 0;
+}
