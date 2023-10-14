@@ -27,7 +27,6 @@ img {
   display: flex;
   width: 150px;
   height: 150px;
-  border-color: black;
 }
 
 .s2title {
@@ -45,11 +44,20 @@ img {
   text-align: center;
 }
 
+.section-3 {
+  margin: auto;
+  width: 900px;
+}
+
 .quote {
-  display: flex;
   font-size: 36px;
-  text-align: center;
   font-style: italic;
   font-weight: 300;
   color: #1f2937;
+}
+
+.credit {
+  text-align: center;
+  margin-left: 600px;
+  font-size: 28px;
 }
