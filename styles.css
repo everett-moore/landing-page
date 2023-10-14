@@ -18,3 +18,25 @@ body {
   display: flex;
   align-items: center;
 }
+
+img {
+  display: flex;
+  width: 150px;
+  height: 150px;
+  border-color: black;
+}
+
+.s2title {
+  text-align: center;
+}
+
+.section-2 {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+
+.subtext {
+  width: 150px;
+  text-align: center;
+}
