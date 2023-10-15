@@ -1,5 +1,5 @@
 * {
-  font-family: sans-serif, "Roboto";
+  font-family: sans-serif, "roboto";
 }
 
 body {
@@ -12,6 +12,8 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  margin-left: -200px;
+  margin-right: -200px;
 }
 
 .headertext {
@@ -21,7 +23,6 @@ body {
 
 a {
   text-decoration: none;
-  padding: 10px;
 }
 
 .section-1 {
