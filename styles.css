@@ -58,6 +58,12 @@ a {
 
 .bg1 {
   background-color: #1f2937;
+  display: flex;
+  justify-content: center;
+}
+
+.preventgrowth {
+  flex-grow: 0;
 }
 
 .heromaintext {
@@ -147,7 +153,7 @@ img {
   display: flex;
   background-color: #3882f8;
   justify-content: space-around;
-  margin: 30px 100px;
+  margin: 30px 150px;
   border-radius: 25px;
   color: white;
 }
@@ -171,12 +177,17 @@ img {
 .footer {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
 .footertext {
-  position: absolute;
-  bottom: 0;
   color: white;
+}
+
+.bg3 {
+  width: auto;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  background-color: #1f2937;
+  padding: 20px;
 }
